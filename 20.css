@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  background-color:rgb(0, 128, 117);
+  overflow:auto;
+}
+
+body {
+	text-align:center;
+}
+
+div {
+	border:1px solid grey;
+	margin-top:20px;
+}
+
+#problem {
+	
+	width: 90%;
+	margin:auto;
+	margin-top:20px;
+	height:80px;
+	text-align:left;
+	color:rgb(255, 255, 255);
+	font-family:Luminary, cursive;
+	font-size:15px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+footer{
+	margin-top:20px;
+	text-align:center;
+	font-size:10px;
+}
+
+
+  [class*="column"] { 
+     width: 100%;
+     display:inline-block;
+	 height:60vh;
+	 background-color:rgb(255, 255, 255);
+  }
+
+  header nav button{ 
+	  width:18%;
+	  font-size:8px;
+  }
+
+@media screen and (min-width:600px) {
+  [class*="column"] {
+    width:90%;
+  }
+  
+  header nav button{ 
+	width:9%;
+	font-size:1.2vw;
+  }
+}
+	
